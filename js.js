@@ -21,5 +21,5 @@ $(document).ready(function(){
 				if( color > 5 ){ color = 0; }else{ color++; };
 			}
 		} 
-	,250);
+	,200);
 });

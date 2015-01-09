@@ -38,3 +38,20 @@ nav ul li{
 	font-family: "blanchcaps";
 	margin-right: 24px;
 }
+
+nav ul li a, nav ul li a:visited{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover.red{ color: #954932; }
+a:hover.orange{ color: #CF9717; }
+a:hover.yellow{ color: #E7D127; }
+a:hover.green{ color: #4A8F19; }
+a:hover.blue{ color: #176B82; }
+a:hover.indigo{ color: #5B6DC8; }
+a:hover.violet{ color: #493984; }
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "blanchcaps";
+}
