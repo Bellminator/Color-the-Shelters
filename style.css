@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 @font-face {
     font-family: 'blanchcaps';
     src: url('./blanch/blanch_caps-webfont.eot');
@@ -26,32 +31,54 @@ body{
 	text-align: center;
 }
 
+.content{
+	margin: 0 80px;
+}
+
+.content p{
+	font-size: 24px;
+	font-family: "Comfortaa";
+	margin-left: 10px;
+}
+
 nav{
 	text-align: center;
 	font-size: 72px;
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
 }
 
 nav ul{}
 nav ul li{ 
 	display: inline;
 	font-family: "blanchcaps";
-	margin-right: 24px;
 }
 
 nav ul li a, nav ul li a:visited{
+	display: inline-block;
 	text-decoration: none;
 	color: #000;
 }
 
-a:hover.red{ color: #954932; }
-a:hover.orange{ color: #CF9717; }
-a:hover.yellow{ color: #E7D127; }
-a:hover.green{ color: #4A8F19; }
-a:hover.blue{ color: #176B82; }
-a:hover.indigo{ color: #5B6DC8; }
-a:hover.violet{ color: #493984; }
+a:hover.ared{ color: #954932; }
+a:hover.aorange{ color: #CF9717; }
+a:hover.ayellow{ color: #E7D127; }
+a:hover.agreen{ color: #4A8F19; }
+a:hover.ablue{ color: #176B82; }
+a:hover.aindigo{ color: #5B6DC8; }
+a:hover.aviolet{ color: #493984; }
+
+.red{ color: #954932; }
+.orange{ color: #CF9717; }
+.yellow{ color: #E7D127; }
+.green{ color: #4A8F19; }
+.blue{ color: #176B82; }
+.indigo{ color: #5B6DC8; }
+.violet{ color: #493984; }
 
 h1,h2,h3,h4,h5,h6{
 	font-family: "blanchcaps";
+	margin: 20px 0;
 }
+
+h1{ font-size: 96px; }
